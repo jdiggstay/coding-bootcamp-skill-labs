@@ -10,4 +10,4 @@ dose_per_kg = float(input("Enter prescribed dose (mg/kg): "))
 total_dose = calculate_dose(weight, dose_per_kg)
 
 print()
-print("Total dose: {total_dose:.2f} mg")
+print(f"Total dose: {total_dose:.2f} mg")
